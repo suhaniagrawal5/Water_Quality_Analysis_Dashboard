@@ -1,23 +1,23 @@
-# Water_Quality_Analysis_Dashboard
+# Water Quality and Potability Analysis
 
-📌 Project Overview
-This project analyzes water quality data to determine whether water is potable (safe for drinking) based on various chemical and physical parameters such as pH, dissolved oxygen, and other factors.
-The project focuses on exploratory data analysis (EDA) and visualization to understand patterns affecting water potability.
+An interactive Tableau dashboard created to analyze chemical properties of water samples and determine factors affecting safe drinking water. Built as a solo project to apply data visualization and analysis skills during my internship with 1M1B.
 
-🛠️ Tools Used
-Tableau
-Data Visualization & Dashboarding
+## 🎯 Key Objectives
 
-🔍 Key Analysis
-Comparison of potable vs non-potable water
-Analysis of key water quality parameters
-Interactive visualizations using multiple chart types
+* **Visualize differences** between Potable (safe) and Not Potable water samples.
+* **Analyze metrics** including pH, Turbidity, Dissolved Oxygen, and Temperature.
+* **Spot correlation** between water clarity (turbidity) and overall acidity levels.
 
-📊 Dashboard Features
-Bar charts
-Line charts
-Distribution and comparison visuals
-Interactive filters for better insights
+## 📊 Dashboard Breakdown
 
-🎓 Learning Outcome
-This mini project helped me understand how EDA and visualization tools like Tableau can be used to communicate insights effectively and support data-driven decisions.
+### Avg. Turbidity vs. Avg. pH
+* **Scatter plot** demonstrating sample clusters based on acidity and clarity.
+
+### Sample Count
+* **Distribution** of tested safe vs. unsafe water samples.
+
+### Physicochemical Metrics
+Comparative charts evaluating:
+* **Turbidity (NTU):** Identifying safe clarity levels.
+* **Dissolved Oxygen (mg/L):** Comparing oxygenation levels across samples.
+* **pH Levels & Temperature (°C):** Monitoring baseline safety ranges.
